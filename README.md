@@ -1,2 +1,2 @@
 # ExL-Data-Parsing-Script
-Python script to modify google sheet data types for pre-processing for Google Data Studio.
+Python script for UBC Extended Learning to modify google sheet data types for pre-processing in Google Data Studio.
