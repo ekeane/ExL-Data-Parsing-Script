@@ -1,5 +1,3 @@
-#!/usr/bin/env python
-# coding: utf-8
 
 import pandas as pd
 def exlRegCount(csvInStringformat):
@@ -52,17 +50,6 @@ def exlRegCount(csvInStringformat):
     data['REGISTRATION DATE'] = data['REGISTRATION DATE'].dt.strftime('%d-%m-%Y')
     
     return data.to_excel("ExL Reg Count by Program.xlsx")
-    
-    
-
-
-# In[55]:
-
-
-exlRegCount('Sec Count by ProgArea enrollment Doina.csv')
-
-
-# In[ ]:
 
 
 
